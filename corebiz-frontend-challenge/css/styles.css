@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  max-width: 1920px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.logo img {
+  width: 181px;
+  height: 41px;
+}
+
+.search {
+  display: flex;
+  width: 718px;
+  border-bottom: 1px solid #7A7A7A;
+}
+
+#icon-glass {
+  position: absolute;
+  right: 350px;
+  top: 25px;
+}
